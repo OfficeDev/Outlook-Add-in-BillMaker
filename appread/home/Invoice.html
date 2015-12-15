@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8"></meta>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/></meta>
+  <title></title>
+  <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+  <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+  <link href="../../bower_components/microsoft.office.js/styles/OfficeThemes.css" rel="stylesheet" type="text/css" />
+  <link href="//appsforoffice.microsoft.com/fabric/1.0/fabric.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/1.0/fabric.components.min.css">
+  <!--<link href="//appsforoffice.microsoft.com/fabric/1.0/fabric.components.min.css" rel="stylesheet">-->
+  <script src="//appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+  <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+  <!-- <script src="../../bower_components/jquery/jquery.min.js"></script>  -->
+  <!-- <script src="../../bower_components/microsoft.office.js/scripts/Office/1.1/office.js"></script>  -->
+  <!-- <script src="../../content/fabric.min.css"></script>  -->
+  <!-- <script src="../../content/fabric.components.min.css"></script>  -->
+  <!-- <script src="../../scripts/jquery.fabric.min.js"></script>  -->
+  <script src="../../scripts/MicrosoftAjax.js"></script>
+
+  <link href="../App.css" rel="stylesheet" type="text/css" />
+  <script src="../App.js"></script>
+
+  <link href="TaskPane.css" rel="stylesheet" type="text/css" />
+  <script src="Invoice.js"></script>
+</head>
+
+<body>
+  <div id="content-main">
+    <div class="padding ms-font-m">
+      <p><strong>Unpaid charges for <span id="customer-name"></span>.</strong></p>
+      <table id="invoice" class="padding ms-font-m">
+        <tr>
+          <th>Date</th><th>Subject</th><th>Notes</th><th>Charge</th>
+        </tr>
+
+      </table>
+        <button id="create-message" class="ms-Button ms-Button--primary">
+          <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+          <div class=".ms-fontColor-themeDark"><span class="ms-Button-label">Send invoice</span></div>
+      </button>        
+      
+    </div>
+  </div>
+  <div id="content-footer">
+    <div class=class="padding ms-font-s">
+      <a target="_blank" href="http://dev.office.com/code-samples#?filters=office%20add-ins">Find more samples online...</a>
+    </div>
+  </div>
+</body>
+
+</html>
