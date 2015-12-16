@@ -1,4 +1,4 @@
-# Outlook-Add-in-BillGenerator
+# Outlook-Add-in-BillMaker
 This Outlook add-in demonstrates how to implement three kinds of command buttons: drop-down, launch task pane, and run function without UI
 
 ![BillMaker screenshot](./billmakerscreenshot.PNG)
