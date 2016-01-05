@@ -1,7 +1,9 @@
 # Outlook-Add-in-BillMaker
-This Outlook add-in demonstrates how to implement three kinds of command buttons: drop-down, launch task pane, and run function without UI
+This Outlook add-in demonstrates how to implement three kinds of command buttons: drop-down, launch task pane, and run a function without a task pane UI. The app appears when you open an existing appointment or meeting and allows you to create and send invoices to clients with whom you've met. This sample currently runs only with the Outlook 2016 desktop client.
 
 ![BillMaker screenshot](images/BillMaker.png)
+
+The Add a charge button contains a three-option drop-down menu that allows you to apply charges for three different tiers of customers. The Make an invoice button generates an invoice out of all of the saved charges, and the Clear changes button clears all charges for the current customer.
 
 ## Prerequisites
 * [npm](https://www.npmjs.com/), Node Package Manager, is required to install dev dependencies.
