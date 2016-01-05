@@ -1,7 +1,7 @@
 # Outlook-Add-in-BillMaker
 This Outlook add-in demonstrates how to implement three kinds of command buttons: drop-down, launch task pane, and run function without UI
 
-![BillMaker screenshot](./billmakerscreenshot.PNG)
+![BillMaker screenshot](./BillMaker.PNG)
 
 ## Prerequisites
 * [npm](https://www.npmjs.com/), Node Package Manager, is required to install dev dependencies.
@@ -10,8 +10,8 @@ This Outlook add-in demonstrates how to implement three kinds of command buttons
 
 ## Configure the add-in
 1. Clone this repository.
-2. Run `npm install` to install both npm and Bower dependencies.
-3. Run `gulp serve-static` to start development server.
+2. Run `npm install` from your local repository to install both npm and Bower dependencies.
+3. Run `gulp serve-static` from your local repository to start development server.
 4. Go to [mail.office365.com](http://mail.office365.com) and sign in with your Office 365 account.
 5. Click the gear icon on the upper right, then choose *Manage add-ins*.
 6. Click the plus icon, then choose *Add from a file*.
