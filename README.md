@@ -3,11 +3,11 @@ This Outlook add-in demonstrates how to implement three kinds of command buttons
 
 ![BillMaker screenshot](images/BillMaker.png)
 
-The Add a charge button contains a three-option drop-down menu that allows you to apply charges for three different tiers of customers. The Make an invoice button generates an invoice out of all of the saved charges, and the Clear changes button clears all charges for the current customer.
+The **Add a charge button** contains a three-option drop-down menu that allows you to apply charges for three different tiers of customers. The **Make an invoice** button generates an invoice out of all of the saved charges, and the **Clear changes** button clears all charges for the current customer.
 
 ## Prerequisites
 * [npm](https://www.npmjs.com/), Node Package Manager, is required to install dev dependencies.
-* [Bower](http://bower.io/) is required to install frontend dependencies. 
+* [Bower](http://bower.io/) is required to install front-end dependencies. 
 * [Gulp](http://gulpjs.com/) is used as a task runner, including serving the application on a development server.
 
 ## Configure the add-in
@@ -19,7 +19,7 @@ The Add a charge button contains a three-option drop-down menu that allows you t
 6. Click the plus icon, then choose *Add from a file*.
 7. Browse to this repository folder and choose *manifest.xml*.
 8. Then complete the wizard (*Next*, *Install*, *OK*) to make the add-in available on your Office 365 account.
-9. Finally, you'll have to open the [app](https://localhost:8443/appread/index.html) in a browser and trust the certificate for `localhost:8443`. The add-in won't run if your computer doesn't trust it.
+9. Finally, you'll have to open the [app](https://localhost:8443/appread/home/home.html) in a browser and trust the certificate for `localhost:8443`. The add-in won't run if your computer doesn't trust it.
 
 ## Run the add-in
 1. After installing the add-in, open the Outlook 2016 client desktop application. 
