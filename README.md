@@ -9,6 +9,7 @@ The **Add a charge button** contains a three-option drop-down menu that allows y
 * [npm](https://www.npmjs.com/), Node Package Manager, is required to install dev dependencies.
 * [Bower](http://bower.io/) is required to install front-end dependencies. 
 * [Gulp](http://gulpjs.com/) is used as a task runner, including serving the application on a development server.
+* An Office 365 account. If you don't have one, [join the Office 365 Developer Program and get a free 1 year subscription to Office 365](https://aka.ms/devprogramsignup).
 
 ## Configure the add-in
 1. Clone this repository.
