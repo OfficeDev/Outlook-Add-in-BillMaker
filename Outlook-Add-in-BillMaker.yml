@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: Microsoft Outlook-Add-in-BillMaker
+  path: ''
+  description: 'This Outlook add-in demonstrates how to implement three kinds of command buttons: drop-down, launch task pane, and run function without UI.'
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: jamescro
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Outlook
+    scenarios: []
