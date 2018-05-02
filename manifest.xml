@@ -10,6 +10,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Bill Maker"/>
   <Description DefaultValue="Creates invoices from meeting forms."/>
+  <IconUrl DefaultValue="https://localhost:8443/images/bill_app_icon_large.png" />
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
