@@ -1,3 +1,17 @@
+---
+topic: sample
+products:
+- Outlook
+- Office 365
+languages:
+- HTML
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 12/15/2015 10:40:59 AM
+---
 # Microsoft Outlook-Add-in-BillMaker
 This Outlook add-in demonstrates how to implement three types of command buttons: a button with a drop-down menu (each of which launches a task pane), a button that launches a task pane, and a button that runs a function that uses no task pane UI. The app appears when you open an existing appointment or meeting and allows you to create and send invoices to clients with whom you've met. This sample currently runs only with the Outlook 2016 desktop client.
 
